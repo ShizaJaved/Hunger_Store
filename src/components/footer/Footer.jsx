@@ -26,7 +26,7 @@ const Footer = () => {
       <div>
         <h1 className="text-[15px] ">
           Mozilla/5.0 (Macintosh; PPC Mac OS X 10_5_8) AppleWebKit/537.2 (KHTML,
-          like Gecko) Chrome/81.0.4634.88 Safari/537.2 Edg/81.01086.94
+          like Gecko) 
         </h1>
       </div>
     </div>
