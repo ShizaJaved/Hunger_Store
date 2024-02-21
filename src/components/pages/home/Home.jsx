@@ -12,7 +12,7 @@ const Home = () => {
        <div className="pt-20 "> 
 
          <div className="flex items-center flex-col relative ">
-          <div className="w-[60%] -mt-[110px] opacity-50">
+          <div className="w-[60%] -mt-[130px] opacity-50">
             <img src={store} alt="" className="w-[100%]" />
           </div>
 
