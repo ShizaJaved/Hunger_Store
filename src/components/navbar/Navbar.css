@@ -39,8 +39,7 @@ font-weight:600;
 
 
 .list h3:hover{
-    border-bottom:2px solid purple;
-    border-radius:1px;
+  color: #FA9514;
 }
 
 nav .links{
@@ -56,6 +55,6 @@ gap:10px;
 }
 
 .cart span:hover{
-    color:red;
+    color:#FA9514;
     font-size:32px;
 }

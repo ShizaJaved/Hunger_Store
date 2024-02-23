@@ -15,7 +15,7 @@ const About = () => {
         <img src={top} className="w-full h-full" />
       </div>
 
-      <div className="w-screen h-[450px]  bg-[#EF4444] flex justify-around pt-5 ">
+      <div className="w-screen h-[530px]  bg-[#EF4444] flex justify-around pt-5 ">
         <div className="w-[45%] pl-12 ">
           <h1 className="text-[25px] font-bold text-[#fff8f6]">
             Why to choose our <br />
@@ -28,14 +28,14 @@ const About = () => {
           </p>
 
           {/* component */}
-          <div className="flex gap-6 items-center text-[#fff8f6] mt-5">
+          <div className="flex gap-6 items-center  text-[#fff8f6] mt-5">
             {/* circle */}
             <div className="bg-white h-14 rounded-full w-14 flex items-center justify-center text-red-400 text-[30px]">
               <MdFastfood />
             </div>
 
             {/* bottom of component */}
-            <div className="w-[50%] flex flex-col mt-4 gap-1">
+            <div className="w-[50%] flex flex-col mt-4  gap-1">
               <h1 className="text-[25px] font-bold ">Modern Innovation</h1>
               <p className="text-[15px] text-[#efe3df] font-normal">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -65,7 +65,7 @@ const About = () => {
 
         {/* right side */}
         <div className="w-[30%] relative">
-          <div className='w-full -ml-16'>
+          <div className='w-full -ml-20 mt-10'>
           <img src={blob} className=""/></div>
           <div className='w-[15px] h-[15px]'>
             <img src={about_img} className="absolute top-0 left-0  h-full drop-shadow-2xl" />
@@ -76,7 +76,7 @@ const About = () => {
 
 
 {/* bottom waves */}
-      <div>
+      <div className=''>
         <img src={bottom} className="h-full w-full" />
       </div>
     </div>
